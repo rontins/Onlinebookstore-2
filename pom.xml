@@ -4,13 +4,13 @@
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>onlinebookstore</groupId>
 	<artifactId>onlinebookstore</artifactId>
-	<version>0.0.4-release</version>
+	<version>0.0.5-release</version>
 	<packaging>war</packaging>
 	<description>Online book Store</description>
 
 	<organization>
-		<name>Koftown Tech</name>
-		<url>http://koftowntech.com/</url>
+		<name>Mensbon Tech</name>
+		<url>http://Mensbon Enterprise.com/</url>
 	</organization>
 
 	<properties>
@@ -18,7 +18,7 @@
 		<spring.version>5.1.2.RELEASE</spring.version>
 		<junit.version>4.11</junit.version>
 		<log4j.version>1.2.17</log4j.version>
-		<sonar.host.url>http://44.202.65.94:9000/</sonar.host.url>
+		<sonar.host.url>http://3.94.173.136:9000/</sonar.host.url>
 		<sonar.login>admin</sonar.login>
 		<sonar.password>admin</sonar.password> 
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -29,13 +29,13 @@
 	    <repository>
 	      <id>nexus</id>
 	      <name>OnlineBookStore Releases Nexus Repository</name>
-	      <url>http://44.204.20.94:8081/repository/Online-BookStore-Releases/</url>
+	      <url>http://35.170.185.210:8081/repository/Online-BookStore-Releases/</url>
 	    </repository>
 	    
 	    <snapshotRepository>
 	      <id>nexus</id>
 	      <name>OnlineBookStore Snapshot Nexus Repository </name>
-	      <url>http://44.204.20.94:8081/repository/Online-BookStore-Snapshots/</url>
+	      <url>http://35.170.185.210:8081/repository/Online-BookStore-Snapshots/</url>
 	    </snapshotRepository>
 	    
 	</distributionManagement>
@@ -46,7 +46,7 @@
 	
              <build>
 		<sourceDirectory>src/main/java</sourceDirectory>
-		<finalName>Online Book Store</finalName>
+		<finalName>Mensbon Enterprise</finalName>
 		<plugins>
 			<plugin>
 				<groupId>org.apache.maven.plugins</groupId>
